@@ -1209,6 +1209,10 @@ Content Area
 	display: block;
 }
 
+.wpselect-read-more {
+	text-align: right;
+}
+
 /* Pagination
 --------------------------------------------- */
 
