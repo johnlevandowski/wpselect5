@@ -58,6 +58,7 @@
 	- Sidebars
 	- Footer Widgets
 	- Site Footer
+	- WPselect Landing Page
 	- Media Queries
 		- max-width: 1139px
 		- max-width: 1023px
@@ -1464,6 +1465,30 @@ Site Footer
 
 .site-footer p {
 	margin-bottom: 0;
+}
+
+
+/*
+WPselect Landing Page
+---------------------------------------------------------------------------------------------------- */
+
+.wpselect-landing .site-inner,
+.wpselect-landing .wrap {
+	max-width: 750px;
+}
+
+.wpselect-landing .site-header .wrap {
+	padding: 0;
+}
+
+.wpselect-landing .title-area {
+	width: 100%;
+}
+
+.wpselect-landing .site-title {
+	margin: 5px;
+	margin: 0.5rem;
+	text-align: center;
 }
 
 
