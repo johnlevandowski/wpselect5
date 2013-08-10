@@ -28,6 +28,9 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 /** Add Adsense Widget Areas */
 include_once( CHILD_DIR . '/lib/adsense-widgetize.php');
 
+/** Add Archive Page Content */
+include_once( CHILD_DIR . '/lib/archive-page-content.php');
+
 /** Add YARPP Related Posts */
 add_action( 'genesis_after_entry_content', 'wpselect_related_posts', 9 );
 function wpselect_related_posts() {
