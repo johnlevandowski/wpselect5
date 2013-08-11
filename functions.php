@@ -31,6 +31,9 @@ include_once( CHILD_DIR . '/lib/adsense-widgetize.php');
 /** Add Archive Page Content */
 include_once( CHILD_DIR . '/lib/archive-page-content.php');
 
+/** Add Google Custom Search */
+include_once( CHILD_DIR . '/lib/google-search.php');
+
 /** Add YARPP Related Posts */
 add_action( 'genesis_after_entry_content', 'wpselect_related_posts', 9 );
 function wpselect_related_posts() {
