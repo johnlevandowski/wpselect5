@@ -743,7 +743,8 @@ Widgets
 /* WPselect Adsense Widget Areas
 --------------------------------------------- */
 
-.wpselect_before_loop .widget {
+.wpselect_before_loop .widget,
+.wpselect_after_post .widget {
 	margin-bottom: 40px;
 	margin-bottom: 4rem;
 	text-align: center;

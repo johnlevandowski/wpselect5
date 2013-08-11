@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/wpselect5
 
 === Changelog ===
 
+* Add Adsense After Second Post Widget Area
 * Add Google Custom Search
 * Add Landing Page Template
 * Customize Archive and 404 Templates
