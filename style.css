@@ -1473,9 +1473,22 @@ Site Footer
 WPselect Landing Page
 ---------------------------------------------------------------------------------------------------- */
 
+body.wpselect-landing {
+	background-color: #f5f5f5;
+}
+
 .wpselect-landing .site-inner,
 .wpselect-landing .wrap {
-	max-width: 750px;
+	max-width: 960px;
+}
+
+.wpselect-landing .site-inner {
+	padding: 0px 5%;
+	padding: 0rem 5%;
+}
+
+.wpselect-landing .site-header {
+	background-color: transparent;
 }
 
 .wpselect-landing .site-header .wrap {
@@ -1487,9 +1500,22 @@ WPselect Landing Page
 }
 
 .wpselect-landing .site-title {
-	margin: 5px;
-	margin: 0.5rem;
+	margin: 0px;
+	margin: 0rem;
 	text-align: center;
+}
+
+.wpselect-landing .entry {
+	margin-bottom: 0px;
+	margin-bottom: 0rem;
+	padding: 40px 40px 24px;
+	padding: 4rem 4rem 2.4rem;
+}
+
+.wpselect-landing .site-footer {
+	background-color: transparent;
+	padding: 16px 0;
+	padding: 1.6rem 0;
 }
 
 
