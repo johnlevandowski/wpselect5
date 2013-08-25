@@ -892,8 +892,8 @@ Site Header
 }
 
 .site-header .wrap {
-	padding: 40px 0;
-	padding: 4rem 0;
+	padding: 20px 0;
+	padding: 2rem 0;
 }
 
 /* Title Area
@@ -905,7 +905,7 @@ Site Header
 	font-weight: 700;
 	padding: 16px 0;
 	padding: 1.6rem 0;
-	width: 320px;
+	width: 800px;
 }
 
 .header-image .title-area {
@@ -967,7 +967,7 @@ Site Header
 .site-header .widget-area {
 	float: right;
 	text-align: right;
-	width: 800px;
+	width: 320px;
 }
 
 .header-image .site-header .widget-area {
@@ -1003,8 +1003,8 @@ Site Navigation
 	border: none;
 	color: #999;
 	display: block;
-	padding: 28px 24px;
-	padding: 2.8rem 2.4rem;
+	padding: 16px 20px;
+	padding: 1.6rem 2rem;
 	position: relative;
 }
 
@@ -1072,8 +1072,8 @@ Site Navigation
 	display: inline-block;
 	float: right;
 	list-style-type: none;
-	padding: 28px 0;
-	padding: 2.8rem 0;
+	padding: 16px 0;
+	padding: 1.6rem 0;
 	text-transform: uppercase;
 }
 
@@ -1572,7 +1572,7 @@ Media Queries
 	}
 
 	.content,
-	.site-header .widget-area {
+	.title-area {
 		width: 620px;
 	}
 
@@ -1586,7 +1586,7 @@ Media Queries
 	.footer-widgets-2,
 	.footer-widgets-3,
 	.sidebar-primary,
-	.title-area {
+	.site-header .widget-area {
 		width: 300px;
 	}
 
