@@ -1227,6 +1227,13 @@ Content Area
 	clear: both;
 }
 
+.entry-image {
+	border: 1px solid #ccc;
+	box-shadow: 3px 7px 7px #ccc;
+	-moz-box-shadow: 3px 7px 7px #ccc;
+	-webkit-box-shadow: 3px 7px 7px #ccc;
+}
+
 .wpselect-read-more {
 	text-align: right;
 }
