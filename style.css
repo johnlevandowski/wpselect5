@@ -777,6 +777,16 @@ Widgets
 	text-align: center;
 }
 
+.wpselect_after_post_content .enews-widget {
+	background-color: #333;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 400px;
+	padding: 40px;
+	padding: 4rem;
+	text-align: left;
+}
+
 
 /*
 Plugins
