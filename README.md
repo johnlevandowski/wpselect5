@@ -7,12 +7,12 @@ Github project link: https://github.com/johnlevandowski/wpselect5
 
 * Massive css update
 * Add Adsense After Second Post Widget Area
-* Add Google Custom Search http://wpselect.com/blog/add-google-custom-search-to-genesis-framework-theme/
+* Add Google Custom Search http://wpselect.com/add-google-custom-search-to-genesis-framework-theme/
 * Add Landing Page Template
 * Customize Archive and 404 Templates
 * Customize Post Info, Footer, Post Excerpts and Read More Link
 * Add YARPP Related Posts
-* Add Adsense Widget Areas http://wpselect.com/blog/add-google-adsense-to-genesis-framework-theme/
+* Add Adsense Widget Areas http://wpselect.com/add-google-adsense-to-genesis-framework-theme/
 * Forked from https://github.com/copyblogger/genesis-sample version 2.0.0
 
 
