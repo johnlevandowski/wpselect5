@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/wpselect5
 
 === Changelog ===
 
+* Image optimzations
 * Add Adsense test images
 * Massive css update
 * Add Adsense After Second Post Widget Area
@@ -19,10 +20,11 @@ Github project link: https://github.com/johnlevandowski/wpselect5
 
 === Adsense Test Images ===
 
+```html
 <a href="/"><img src="/wp-content/themes/wpselect5/images/600x300.png" style="max-width: none" height="600" width="300"></a>
 <a href="/"><img src="/wp-content/themes/wpselect5/images/336x280.png" style="max-width: none" height="336" width="280"></a>
 <a href="/"><img src="/wp-content/themes/wpselect5/images/728x90.png" style="max-width: none" height="728" width="90"></a>
-
+```
 
 === Developer Info ===
 
