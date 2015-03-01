@@ -4,7 +4,7 @@ include_once( get_template_directory() . '/lib/init.php' );
 
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', 'WPselect5' );
-define( 'CHILD_THEME_URL', 'http://wpselect.com/' );
+define( 'CHILD_THEME_URL', 'http://johnlevandowski.com/' );
 define( 'CHILD_THEME_VERSION', filemtime( CHILD_DIR . '/style.css' ) );
 
 //* Enqueue Lato Google font
@@ -59,14 +59,14 @@ function wpselect_post_info($post_info) {
 remove_action( 'genesis_footer', 'genesis_do_footer' );
 add_action( 'genesis_footer', 'wpselect_do_footer' );
 function wpselect_do_footer() {
-    ?><p>&copy; Copyright 2010-<?php echo date( 'Y' ); ?> <a title="wpselect.com" href="http://wpselect.com/">wpselect.com</a></p>
-	<p>Powered by <a title="Genesis Framework" href="http://wpselect.com/go/genesis/">Genesis</a>, 
-	<a title="Hosting by HostGator" href="http://wpselect.com/go/hostgator/">HostGator</a>, 
+    ?><p>&copy; Copyright 2010-<?php echo date( 'Y' ); ?> <a title="johnlevandowski.com" href="http://johnlevandowski.com/">johnlevandowski.com</a></p>
+	<p>Powered by <a title="Genesis Framework" href="http://johnlevandowski.com/go/genesis/">Genesis</a>, 
+	<a title="Namecheap" href="http://johnlevandowski.com/go/namecheap/">Namecheap</a>, 
 	and <a title="WordPress" href="http://wordpress.org/">WordPress</a></p>
-	<p><a title="Privacy Policy" href="http://wpselect.com/privacy-policy/">Privacy Policy</a> &middot; 
-	<a title="Disclaimer" href="http://wpselect.com/disclaimer/">Disclaimer</a> &middot; 
-	<a title="FTC Disclosure" href="http://wpselect.com/ftc-disclosure/">FTC Disclosure</a> &middot; 
-	<a title="Image Attribution" href="http://wpselect.com/image-attribution/">Image Attribution</a></p>
+	<p><a title="Privacy Policy" href="http://johnlevandowski.com/privacy-policy/">Privacy Policy</a> &middot; 
+	<a title="Disclaimer" href="http://johnlevandowski.com/disclaimer/">Disclaimer</a> &middot; 
+	<a title="FTC Disclosure" href="http://johnlevandowski.com/ftc-disclosure/">FTC Disclosure</a> &middot; 
+	<a title="Image Attribution" href="http://johnlevandowski.com/image-attribution/">Image Attribution</a></p>
     <?php
 }
 
