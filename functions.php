@@ -87,9 +87,28 @@ function wpselect_excerpt_more($more) {
 
 /** Customize jpeg quality */
 add_filter( 'jpeg_quality', 'wpselect_jpeg_quality' );
+add_filter( 'wp_editor_set_quality', 'wpselect_jpeg_quality' );
 function wpselect_jpeg_quality($quality) {
 	return (int)79;
 }
+
+/** Jetpack Photon Text Widgets */
+add_filter( 'widget_text', 'wpselect_photon_text_widget_images' );
+function wpselect_photon_text_widget_images( $content ) {
+	if ( class_exists( 'Jetpack_Photon' ) ) {
+		$content = Jetpack_Photon::filter_the_content( $content );
+	}
+	return $content;
+}
+
+/** Photon skip certain images */
+function wpselect_photon_exception( $val, $src, $tag ) {
+        if ( $src == 'http://card.psnprofiles.com/1/jlevandowski.png' ) {
+                return true;
+        }
+        return $val;
+}
+add_filter( 'jetpack_photon_skip_image', 'wpselect_photon_exception', 10, 3 );
 
 /** Add read more link to post on all archive pages */
 add_action( 'genesis_entry_content', 'wpselect_read_more_post_content', 15 );
@@ -98,3 +117,6 @@ function wpselect_read_more_post_content() {
 	echo '<p class="wpselect-read-more"><a href="' . get_permalink() . '">Continue Reading &rarr;</a></p>';
 	}
 }
+
+/** Force Login via WordPress.com */
+add_filter( 'jetpack_sso_bypass_login_forward_wpcom', '__return_true' );
