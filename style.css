@@ -176,8 +176,8 @@ a {
 }
 
 a img {
-	margin-bottom: -4px;
-	margin-bottom: -0.4rem;
+	margin-bottom: 0px;
+	margin-bottom: 0rem;
 }
 
 a:hover {
