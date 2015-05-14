@@ -37,14 +37,6 @@ include_once( CHILD_DIR . '/lib/google-search.php');
 /** Add Jetpack plugin customizations */
 include_once( CHILD_DIR . '/lib/jetpack.php');
 
-/** Add YARPP Related Posts */
-add_action( 'genesis_after_entry_content', 'wpselect_related_posts', 9 );
-function wpselect_related_posts() {
-	if ( is_single() && function_exists('related_posts') ) { 
-		related_posts();
-	}
-}
-
 /**
  * Customize post info
  * genesis/lib/structure/post.php
