@@ -37,7 +37,6 @@
 		- Titles
 	- Widgets
 		- Featured Content
-		- WPselect Adsense Widget Areas
 	- Plugins
 		- Genesis eNews Extended
 		- Genesis Latest Tweets
@@ -59,6 +58,7 @@
 	- Site Footer
 	- WPselect Landing Page
 	- WPselect Archive Page
+	- WPselect Adsense Widget Areas
 	- Media Queries
 		- max-width: 1139px
 		- max-width: 1023px
@@ -747,60 +747,6 @@ Widgets
 
 .featured-content .entry-title a {
 	border: none;
-}
-
-/* WPselect Adsense Widget Areas
---------------------------------------------- */
-
-.wpselect_before_loop .widget,
-.wpselect_after_post .widget {
-	margin-bottom: 40px;
-	margin-bottom: 4rem;
-	text-align: center;
-}
-
-.wpselect_before_post_content .widget {
-	float: left;
-	padding-bottom: 10px;
-	padding-bottom: 1rem;
-	padding-right: 24px;
-	padding-right: 2.4rem;
-}
-
-.content-sidebar .wpselect_before_post_content .widget,
-.content-sidebar-sidebar .wpselect_before_post_content .widget {
-	float: right;
-	padding-left: 24px;
-	padding-left: 2.4rem;
-	padding-right: 0px;
-	padding-right: 0rem;
-}
-
-.wpselect_after_post_content .widget {
-	clear: both;
-	margin-bottom: 26px;
-	margin-bottom: 2.6rem;
-	margin-top: 26px;
-	margin-top: 2.6rem;
-	text-align: center;
-}
-
-.wpselect_after_post_content .enews-widget {
-	background-color: #333;
-	margin-right: auto;
-	margin-left: auto;
-	max-width: 400px;
-	padding: 40px;
-	padding: 4rem;
-	text-align: left;
-}
-
-table {
-	clear: both;
-}
-
-.entry-content h2 {
-	clear: both;
 }
 
 
@@ -1548,6 +1494,62 @@ WPselect Archive Page
 
 .wpselect-read-more {
 	text-align: right;
+}
+
+
+/*
+WPselect Adsense Widget Areas
+---------------------------------------------------------------------------------------------------- */
+
+.wpselect_before_loop .widget,
+.wpselect_after_post .widget {
+	margin-bottom: 40px;
+	margin-bottom: 4rem;
+	text-align: center;
+}
+
+.wpselect_before_post_content .widget {
+	float: left;
+	padding-bottom: 10px;
+	padding-bottom: 1rem;
+	padding-right: 24px;
+	padding-right: 2.4rem;
+}
+
+.content-sidebar .wpselect_before_post_content .widget,
+.content-sidebar-sidebar .wpselect_before_post_content .widget {
+	float: right;
+	padding-left: 24px;
+	padding-left: 2.4rem;
+	padding-right: 0px;
+	padding-right: 0rem;
+}
+
+.wpselect_after_post_content .widget {
+	clear: both;
+	margin-bottom: 26px;
+	margin-bottom: 2.6rem;
+	margin-top: 26px;
+	margin-top: 2.6rem;
+	text-align: center;
+}
+
+.wpselect_after_post_content .enews-widget {
+	background-color: #333;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 400px;
+	padding: 40px;
+	padding: 4rem;
+	text-align: left;
+}
+
+.entry-content table {
+	clear: both;
+}
+
+.entry-content h2 {
+	clear: both;
 }
 
 
