@@ -58,6 +58,7 @@
 	- Footer Widgets
 	- Site Footer
 	- WPselect Landing Page
+	- WPselect Archive Page
 	- Media Queries
 		- max-width: 1139px
 		- max-width: 1023px
@@ -797,10 +798,6 @@ Widgets
 table {
 	clear: both;
 }
- 
-.entry-footer .entry-meta {
-	clear: both;
-}
 
 .entry-content h2 {
 	clear: both;
@@ -1230,17 +1227,6 @@ Content Area
 	display: block;
 }
 
-.entry-image {
-	border: 1px solid #ccc;
-	box-shadow: 3px 7px 7px #ccc;
-	-moz-box-shadow: 3px 7px 7px #ccc;
-	-webkit-box-shadow: 3px 7px 7px #ccc;
-}
-
-.wpselect-read-more {
-	text-align: right;
-}
-
 /* Pagination
 --------------------------------------------- */
 
@@ -1542,6 +1528,26 @@ body.wpselect-landing {
 	background-color: transparent;
 	padding: 16px 0;
 	padding: 1.6rem 0;
+}
+
+
+/*
+WPselect Archive Page
+---------------------------------------------------------------------------------------------------- */
+
+.entry-image {
+	border: 1px solid #ccc;
+	box-shadow: 3px 7px 7px #ccc;
+	-moz-box-shadow: 3px 7px 7px #ccc;
+	-webkit-box-shadow: 3px 7px 7px #ccc;
+}
+
+.entry-footer .entry-meta {
+	clear: both;
+}
+
+.wpselect-read-more {
+	text-align: right;
 }
 
 
